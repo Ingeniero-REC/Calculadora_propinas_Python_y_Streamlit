@@ -11,5 +11,4 @@ print("-" * 45)
 for porcentaje in lista_de_porcentaje:
     propina = precio * (porcentaje / 100)
     total = precio + propina
-
     print(f"{str(porcentaje) + '%':<15}{propina:<15.2f}{total:<15.2f}")
